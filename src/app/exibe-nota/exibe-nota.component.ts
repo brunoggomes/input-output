@@ -10,7 +10,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./exibe-nota.component.css']
 })
 export class ExibeNotaComponent implements OnInit {
-  @Input() nota: string;
+  @Input() nota: number;
 
   constructor() { }
 
