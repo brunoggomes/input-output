@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'input-output';
+  notaAtual: number;
+
+  onNotaAlterada(nota: number) {
+    this.notaAtual = nota;
+    console.log(this.notaAtual);
+  }
+
 }
